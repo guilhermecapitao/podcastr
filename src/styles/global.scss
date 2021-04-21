@@ -33,6 +33,12 @@
   }
 }
 
+@media (max-width: 1830px) {
+  html {
+    font-size: 85%;
+  }
+}
+
 body {
   background: var(--gray-50);
 }
