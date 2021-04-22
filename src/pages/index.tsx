@@ -118,7 +118,7 @@ export default function Home({ latestEpisodes ,allEpisodes }: HomeProps) {
    const { data } = await api.get('episodes', {
      params: {
        _limit: 12,
-       _sort: 'publised_at',
+       _sort: 'published_at',
        _order: 'desc'
      }
    });
