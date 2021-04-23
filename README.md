@@ -37,6 +37,9 @@ Follow the steps below
 # Install the dependencies
 $ yarn
 
+# Run the JSON server
+$ yarn server
+
 # Start the project
 $ yarn dev
 ```
